@@ -1,0 +1,99 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body,
+html {
+  width: 100%;
+  height: 100%;
+  font-family: 'Noto Sans KR', sans-serif;
+  background: #ffffff;
+}
+
+.screen {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  padding: 40px 20px;
+  text-align: center;
+}
+
+/* 설명 텍스트 */
+.subtitle {
+  position: absolute;
+  top: 21.1%; /* 상단에서 160px */
+  left: 17.6%; /* 좌측에서 66px */
+  right: 17.6%; /* 우측에서 66px */
+  text-align: center;
+  font-size: 4.5vw; /* 화면 너비에 비례한 글자 크기 */
+  font-weight: 600;
+  color: #1d6ba1;
+  line-height: 1.4;
+}
+
+.highlight {
+  color: #32c5f4; /* 파란색 강조 */
+  font-weight: 700;
+}
+
+/* 로고 */
+.logo {
+  width: 106px;
+  height: 130px;
+  position: absolute;
+  top: 30.2%; /* 상단에서 229.27px */
+  right: 35.9%;
+  bottom: 52.5%; /* 하단에서 398px */
+  left: 35.9%; /* 좌측에서 134.47px */
+}
+
+/* 시작 버튼 */
+.start-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+
+  width: 70%;
+  max-width: 300px;
+  padding: 14px 0;
+
+  background: #32c5f4;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 600;
+  text-decoration: none;
+  border-radius: 8px;
+
+  position: absolute;
+  top: 73.9%;
+  left: 12.7%;
+  right: 12.7%;
+  width: 74.7%;
+  height: 6.9%;
+}
+
+/* 아이콘 (임시로 이모지 사용) */
+.icon {
+  font-size: 18px;
+}
+
+.btn-text {
+  margin-left: 5%; /* 아이콘과 텍스트 간격 */
+  font-size: 4.2vw; /* 화면 크기에 따라 반응형 */
+  line-height: 1;
+  flex-shrink: 0;
+}
+
+.icon {
+  position: absolute;
+  top: 23.1%;
+  left: 21.9%;
+  width: 10%;
+  height: 53.8%;
+  background: url('img/icon.svg') no-repeat center/contain;
+}
