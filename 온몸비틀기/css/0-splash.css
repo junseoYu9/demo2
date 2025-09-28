@@ -1,0 +1,23 @@
+.svg {
+  position: absolute;
+  top: 43.8%;
+  left: 29.1%;
+  width: 41.9%;
+  height: 7.2%;
+}
+
+.waiting-text {
+  position: absolute;
+  top: 53.7%; /* 이미지 아래 20px */
+  left: 50%;
+  transform: translateX(-50%);
+
+  /* 피그마에서 가져온 스타일 */
+  color: #4378bd;
+  text-align: center;
+  font-family: 'Noto Sans KR', sans-serif; /* KoddiUD 대체 */
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 20px;
+  letter-spacing: -0.5px;
+}
